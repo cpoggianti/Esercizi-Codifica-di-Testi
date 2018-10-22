@@ -56,6 +56,65 @@
                     </xr>
                 </sense>
             </entry>
+
+
+            <entry n="2"> <!-- seconda entrata del dizionario-->
+                <form type="lemma"> <!--tipo dell'entrata-->
+                    <orth>fregare</orth> <!--ortografia-->
+                    <pron notation="ipa">fre'gare</pron> <!--pronuncia-->
+                    <syll>fre|gà|re</syll> <!--sillabazione-->
+                </form>
+
+                <gramGrp> <!-- inserisco le informazioni grammaticali-->
+                    <tns>vtr</tns>
+                </gramGrp>
+
+                <etym> dal <lang>latino</lang> <!--inserisco le informazioni etimologiche-->
+                    <mentioned>frĭcare</mentioned>
+                </etym>
+
+                <!--codifica dei 2 sensi dell'entrata-->
+                <sense n="s1">
+                    <def>fare dei freghi</def>
+                    <cit type="example">
+                        <quote>Avendo preso male le misure, fregò la portiera dell'automobile contro la colonna dell'ingresso del garage</quote>
+                    </cit>
+                </sense>
+                <sense n="s2">
+                    <usg type="dom">(popolare)</usg>
+                    <def>tirare un bidone</def>
+                    <cit type="example">
+                        <quote>Ti ha fregato!</quote>
+                        <quote>Il baro lo fregò di brutto calando un poker d'assi alla fine dell'ultima mano</quote>
+                    </cit>
+                </sense>
+                <sense n="s3">
+                    <def>rubare</def>
+                    <cit type="example">
+                        <quote>Mi sono distratta un attimo e mi hanno fregato la borsa da sotto il naso! </quote>
+                    </cit>
+                </sense>
+                <sense n="s4">
+                    <def>interessare, importare</def>
+                    <cit type="example">
+                        <quote>Non me ne frega niente</quote>
+                    </cit>
+                </sense>
+                <sense n="s5">
+                    <usg type="dom">(per estensione)</usg>
+                    <def>imbrogliare o ingannare, quindi in modo ipocrita</def>
+                    <cit type="example">
+                        <quote>Oh, tu non mi freghi!</quote>
+                    </cit>
+                </sense>
+
+                <xr type="cf">
+                    <ref>fregarsi</ref>
+                    <ref>fregatura</ref>
+                    <ref>sfregare</ref>
+                </xr>
+
+            </entry>
         </body> 
     </text>
 </TEI>
