@@ -66,14 +66,15 @@
                 </form>
 
                 <gramGrp> <!-- inserisco le informazioni grammaticali-->
-                    <tns>vtr</tns>
+                    <pos>v</pos> <!--specifico che è un verbo-->
+                    <subc>tr.</subc> <!--specifico che è transitivo-->
                 </gramGrp>
 
                 <etym> dal <lang>latino</lang> <!--inserisco le informazioni etimologiche-->
                     <mentioned>frĭcare</mentioned>
                 </etym>
 
-                <!--codifica dei 2 sensi dell'entrata-->
+                <!--codifica dei 5 sensi dell'entrata-->
                 <sense n="s1">
                     <def>fare dei freghi</def>
                     <cit type="example">
@@ -108,7 +109,7 @@
                     </cit>
                 </sense>
 
-                <xr type="cf">
+                <xr type="cf"> <!--inserisco le parole derivate-->
                     <ref>fregarsi</ref>
                     <ref>fregatura</ref>
                     <ref>sfregare</ref>
