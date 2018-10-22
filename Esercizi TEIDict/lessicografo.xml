@@ -1,0 +1,64 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:lang="it">
+            <titleStmt>
+                <title>Il mio primo dizionario</title>
+                <author>Camilla e Duccio</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>informazioni sulla pubblicazione</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>informazioni sulla sorgente</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <entry n="1"> <!-- prima entrata del dizionario-->
+                <form type="lemma"> <!--tipo dell'entrata-->
+                    <orth>lessicografo</orth> <!--ortografia-->
+                    <pron notation="ipa">lessi'kografo</pron> <!--pronuncia-->
+                    <syll>les|si|cò|gra|fo</syll> <!--sillabazione-->
+                </form>
+
+                <gramGrp> <!-- inserisco le informazioni grammaticali-->
+                    <pos>s.</pos> <!-- persona -->
+                    <gen>m.</gen> <!-- genere -->
+                </gramGrp>
+
+                <etym> dal <lang>greco</lang> <!--inserisco le informazioni etimologiche-->
+                    <mentioned>λεξικογράϕος</mentioned>, composto di 
+                    <mentioned> λεξικόν </mentioned> ossia
+                    <gloss>"lessico"</gloss> e
+                    <mentioned>γράϕος </mentioned>  ovvero
+                    <gloss>"-grafo"</gloss>
+                </etym>
+
+                <!--codifica dei 2 sensi dell'entrata-->
+                <sense n="s1">
+                    <usg type="dom">(linguistica)</usg>
+                    <def>chi si occupa di lessicografia</def>
+                    <cit type="example">
+                        <quote>Francesco Sabatini è un linguista, lessicografo e presidente onorario dell'Accademia della Crusca</quote>
+                    </cit>
+                </sense>
+                <sense n="s2">
+                    <def>colui che contribuisce alla  compilazione di un dizionario</def>
+                    <cit type="example">
+                        <quote>Tullio de Mauro è stato un lessicografo</quote>
+                    </cit>
+                    <xr type="syn"> <!--in questo caso collega questo senso con i sinonimi di questo senso-->
+                        <ref>dizionarista</ref>
+                    </xr>
+                    <xr type="syn">
+                        <ref>vocabolarista</ref>
+                    </xr>
+                </sense>
+            </entry>
+        </body> 
+    </text>
+</TEI>
+
+<!-- esercizio1: codifica le parole "dizionarista" e "vocabolarista" prendendo le informazioni ha wikidictionary-->
+<!--esercizio2: completa la codifica a lessicografo, cioè la parte che riguarda parole derivate usando le linee guida di TEI come riferimento.-->
