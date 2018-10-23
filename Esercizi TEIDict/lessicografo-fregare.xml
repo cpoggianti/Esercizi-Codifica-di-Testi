@@ -109,11 +109,17 @@
                     </cit>
                 </sense>
 
-                <xr type="cf"> <!--inserisco le parole derivate-->
-                    <ref>fregarsi</ref>
-                    <ref>fregatura</ref>
-                    <ref>sfregare</ref>
-                </xr>
+                <re type="derived"> <!--inserisco le parole derivate-->
+                    <form> 
+                        <orth>fregarsi</orth>
+                    </form>
+                    <form>
+                        <orth>fregatura</orth>
+                    </form>
+                    <form>
+                        <orth>sfregare</orth>
+                    </form>
+                </re>
             </entry>
         </body> 
     </text>
