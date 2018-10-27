@@ -3,7 +3,7 @@
         <fileDesc xml:lang="it">
             <titleStmt>
                 <title>Il mio primo dizionario</title>
-                <author>Camilla e Duccio</author>
+                <author>Camilla Poggianti</author>
             </titleStmt>
             <publicationStmt>
                 <p>informazioni sulla pubblicazione</p>
@@ -16,6 +16,8 @@
     <text>
         <body>
             <!--creo un dizionario contenente i termini lessicografo, fregare, dizionarista, vocabolarista-->
+
+            <!--LESSICOGRAFO-->
             <entry n="1"> <!-- prima entrata del dizionario-->
                 <form type="lemma"> <!--tipo dell'entrata-->
                     <orth>lessicografo</orth> <!--ortografia-->
@@ -26,6 +28,7 @@
                 <gramGrp> <!-- inserisco le informazioni grammaticali-->
                     <pos>s.</pos> <!-- specifico che è un sostantivo -->
                     <gen>m.</gen> <!-- genere -->
+                    <numer>sing</numer> <!-- numero -->
                 </gramGrp>
 
                 <etym> dal <lang>greco</lang> <!--inserisco le informazioni etimologiche-->
@@ -68,6 +71,7 @@
             </entry>
 
 
+            <!--FREGARE-->
             <entry n="2"> <!-- seconda entrata del dizionario-->
                 <form type="lemma"> <!--tipo dell'entrata-->
                     <orth>fregare</orth> <!--ortografia-->
@@ -133,6 +137,7 @@
             </entry>
 
 
+            <!--DIZIONARISTA-->
             <entry n="3"> <!-- terza entrata del dizionario-->
                 <form type="lemma"> <!--tipo dell'entrata-->
                     <orth>dizionarista</orth> <!--ortografia-->
@@ -143,11 +148,12 @@
                 <gramGrp> <!-- inserisco le informazioni grammaticali-->
                     <pos>s.</pos> <!-- specifico che è un sostantivo -->
                     <gen>m. e f.</gen> <!-- genere -->
+                    <numer>sing</numer> <!-- numero -->
                 </gramGrp>
 
                 <etym> da <!--inserisco le informazioni etimologiche-->
-                    <mentioned>dizionario</mentioned> e 
-                    <mentioned> -ista </mentioned> 
+                    <gloss>dizionario</gloss> e 
+                    <gloss> -ista </gloss> 
                 </etym>
 
                 <!--codifico l'unico senso dell'entrata-->
@@ -164,6 +170,7 @@
             </entry>
 
 
+            <!--VOCABOLARISTA-->
             <entry n="4"> <!-- quarta entrata del dizionario-->
                 <form type="lemma"> <!--tipo dell'entrata-->
                     <orth>vocabolarista</orth> <!--ortografia-->
@@ -174,10 +181,11 @@
                 <gramGrp> <!-- inserisco le informazioni grammaticali-->
                     <pos>s.</pos> <!-- specifico che è un sostantivo -->
                     <gen>m. e f.</gen> <!-- genere -->
+                    <numer>sing</numer> <!-- numero -->
                 </gramGrp>
 
                 <etym> deriva da <!--inserisco le informazioni etimologiche-->
-                    <mentioned>vocabolario</mentioned> 
+                    <gloss>vocabolario</gloss> 
                 </etym>
 
                 <!--codifico l'unico senso dell'entrata-->
