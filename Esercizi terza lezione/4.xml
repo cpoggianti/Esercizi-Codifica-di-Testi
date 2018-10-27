@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--inserisco all'interno di un tag un frammento di codice HTML-->
+<body>
+    <![CDATA[ 
+        <titolo>Esercizio 4 
+            <sottotitolo> Codifica di testi </titolo> 
+        </sottotitolo>
+    ]]> 
+    <!--anche se la chiusura dei tag è fatta male, il parser non da errore perchè non entra nel CDATA-->
+</body>

@@ -1,0 +1,14 @@
+<!--dichiaro gli elementi, partendo dalla radice TEI-->
+<!ELEMENT TEI (header, facsimile?, testo+)>
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT facsimile (#PCDATA)>
+<!ELEMENT testo (#PCDATA|seg)>
+<!ELEMENT seg (#PCDATA)>
+
+<!--associoagli elementi i dovuti attributi-->
+<!ATTLIST header intestazione CDATA #FIXED>
+<!ATTLIST header lang NMTOKEN #IMPLIED>
+<!ATTLIST facsimile source CDATA #REQUIRED>
+<!ATTLIST facsimile ref IDREF #IMPLIED>
+<!ATTLIST testo id ID #REQUIRED>
+<!ATTLIST testo type ID #IMPLIED>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--scrivo documento xml non opportunamente annidato-->
+<body>
+    <testo>Ciao, mi chiamo <enfasi> Camilla </testo> </enfasi>
+    <!--l'errore di annidamento sta nell'aver chiuso il tag <testo> prima del tag <enfasi>-->
+</body>

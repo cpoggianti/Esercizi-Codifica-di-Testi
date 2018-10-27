@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<body>
+    <testo>Ciao, mi chiamo 
+        <enfasi> Camilla </enfasi>  <!--<enfasi> è un figlio di <testo>-->
+    </testo>
+    <p>Sono nata il 3 settembre 1997.</p> <!-- <p> è un fratello di <testo>, mentre sia <testo> che <p> sono figli di <body>-->
+    
+</body>
