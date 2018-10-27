@@ -15,6 +15,7 @@
     </teiHeader>
     <text>
         <body>
+            <!--creo un dizionario contenente i termini lessicografo, fregare, dizionarista, vocabolarista-->
             <entry n="1"> <!-- prima entrata del dizionario-->
                 <form type="lemma"> <!--tipo dell'entrata-->
                     <orth>lessicografo</orth> <!--ortografia-->
@@ -23,7 +24,7 @@
                 </form>
 
                 <gramGrp> <!-- inserisco le informazioni grammaticali-->
-                    <pos>s.</pos> <!-- persona -->
+                    <pos>s.</pos> <!-- specifico che è un sostantivo -->
                     <gen>m.</gen> <!-- genere -->
                 </gramGrp>
 
@@ -54,7 +55,16 @@
                     <xr type="syn">
                         <ref>vocabolarista</ref>
                     </xr>
+                    <xr type="syn">
+                        <ref>vocabolista</ref>
+                    </xr>
                 </sense>
+
+                <re type="derived"> <!--inserisco le parole derivate-->
+                    <form> 
+                        <orth>lessicografia</orth>
+                    </form>
+                </re>
             </entry>
 
 
@@ -121,9 +131,63 @@
                     </form>
                 </re>
             </entry>
+
+
+            <entry n="3"> <!-- terza entrata del dizionario-->
+                <form type="lemma"> <!--tipo dell'entrata-->
+                    <orth>dizionarista</orth> <!--ortografia-->
+                    <pron notation="ipa">dittsjonaˈrista</pron> <!--pronuncia-->
+                    <syll>di|io|na|rì|sta</syll> <!--sillabazione-->
+                </form>
+
+                <gramGrp> <!-- inserisco le informazioni grammaticali-->
+                    <pos>s.</pos> <!-- specifico che è un sostantivo -->
+                    <gen>m. e f.</gen> <!-- genere -->
+                </gramGrp>
+
+                <etym> da <!--inserisco le informazioni etimologiche-->
+                    <mentioned>dizionario</mentioned> e 
+                    <mentioned> -ista </mentioned> 
+                </etym>
+
+                <!--codifico l'unico senso dell'entrata-->
+                <sense>
+                    <usg type="dom">(professione)(letteratura)</usg>
+                    <def>chi redige un dizionario</def>
+                    <xr type="syn"> <!--in questo caso collega questo senso con i sinonimi di questo senso-->
+                        <ref>lessicografo</ref>
+                    </xr>
+                    <xr type="syn">
+                        <ref>vocabolarista</ref>
+                    </xr>
+                </sense>
+            </entry>
+
+
+            <entry n="4"> <!-- quarta entrata del dizionario-->
+                <form type="lemma"> <!--tipo dell'entrata-->
+                    <orth>vocabolarista</orth> <!--ortografia-->
+                    <pron notation="ipa">vokabolaˈrista</pron> <!--pronuncia-->
+                    <syll>vo|ca|bo|la|rì|sta</syll> <!--sillabazione-->
+                </form>
+
+                <gramGrp> <!-- inserisco le informazioni grammaticali-->
+                    <pos>s.</pos> <!-- specifico che è un sostantivo -->
+                    <gen>m. e f.</gen> <!-- genere -->
+                </gramGrp>
+
+                <etym> deriva da <!--inserisco le informazioni etimologiche-->
+                    <mentioned>vocabolario</mentioned> 
+                </etym>
+
+                <!--codifico l'unico senso dell'entrata-->
+                <sense>
+                    <def>chi compone un vocabolario</def>
+                    <xr type="syn"> <!--in questo caso collega questo senso con i sinonimi di questo senso-->
+                        <ref>lessicografo</ref>
+                    </xr>
+                </sense>
+            </entry>
         </body> 
     </text>
 </TEI>
-
-<!-- esercizio1: codifica le parole "dizionarista" e "vocabolarista" prendendo le informazioni ha wikidictionary-->
-<!--esercizio2: completa la codifica a lessicografo, cioè la parte che riguarda parole derivate usando le linee guida di TEI come riferimento.-->
