@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?> <!--inserimento prologo XML-->
 <!DOCTYPE TEI SYSTEM "tei_lite.dtd">
-<TEI xmlns=http://www.teic.org/ns/1.0> <!--root-->
-    <teiHeader> <!--intestazione-->
+<TEI xmlns="http://www.teic.org/ns/1.0"> <!--root-->
+    <teiHeader xml:lang="it"> <!--intestazione in lingua italiana-->
         <fileDesc> <!--componente obbligatoria contenente la descrizione del file-->
 
             <titleStmt>
@@ -43,15 +43,15 @@
         </revisionDesc>
     </teiHeader>
 
-    <text>
+    <text xml:lang="it"> 
         <front> <!--codifico le informazioni che precedono il testo vero e proprio-->
             <p>Capitolo III</p> <!--numero del capitolo-->
             <head>Tasso e l'esperienza della follia</head> <!--titolo del capitolo-->
         </front>
 
         <body> <!--codifico il contenuto vero e proprio del testo-->
-            <head>Sintesi</body> <!--titolo della pagina-->
-            <div xml:lang="it">
+            <head>Sintesi</head> <!--titolo della pagina-->
+            <div>
                 <list style="list-style-type: square"> <!--contenuto della pagina organizzato a lista-->
                     <item n="1">
                         <p> 
@@ -71,7 +71,7 @@
                         Nel <date>1593</date> pubblica il poema, dopo averlo sottoposto a un sostanziale rifacimento, con il titolo di <title style="font-style: italic">Gerusalemme conquistata</title>.
                         Muore a <name type="place">Roma</name> il <date>25 aprile 1595</date>.
                         </p>
-                    <item>
+                    </item>
 
                     <item n="2">
                         <p>
@@ -91,7 +91,7 @@
                     <item n="4">
                         <p>
                         <hi style="font-weight: bold; color: red">L'<title style="font-style: italic">Aminta</title></hi>
-                        Rappresentata per la prima volta nell'estate del <date>1573</date>, è una "favola boschereccia".
+                        Rappresentata per la prima volta nell'estate del <date>1573</date>, è una favola boschereccia.
                         Il dramma è diviso in <num type="cardinal" value="5">cinque</num> atti, secondo le norme aristoteliche, preceduti da un prologo; ogni atto è concluso da un coro.
                         Lo svolgimento dell'azione è estremamente semplice e riguarda l'amore, all'inizio contrastato ma destinato a felice conclusione, di <name type="person">Aminta</name> per la ninfa <name type="person">Silvia</name>.
                         </p>
