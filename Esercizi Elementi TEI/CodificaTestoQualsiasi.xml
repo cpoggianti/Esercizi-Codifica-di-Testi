@@ -14,7 +14,7 @@
 
             <publicationStmt> <!--marco le responsabilità di pubblicazione del documento elettronico-->
                 <publisher>Camilla Poggianti</publisher>
-                <date>1 novembre 2018</date>
+                <date when="2018-11-08">8 novembre 2018</date>
                 <address>Via De' Mari</address> <!--indirizzo di pubblicazione-->
                 <pubPlace>Capraia Isola</pubPlace> <!--luogo di pubblicazione-->
                 <availability status="restricted"> <!--dico che la disponibilità del testo è ristretta-->
@@ -28,7 +28,7 @@
                     <title type="sub">Dal Manierismo al Romanticismo</title>
                     <author>Romano Luperini, Pietro Cataldi, Lidia Marchiani, Franco Marchese</author>
                     <publisher>G.B. Palumbo Editore</publisher>
-                    <date>2012</date>
+                    <date when="2012">2012</date>
                 </bibl>
             </sourceDesc>
 
@@ -39,76 +39,79 @@
         </encodingDesc>
 
         <revisionDesc> <!--descrizione delle revisioni del file-->
-        
+            <p>Creazione della teiHeader il <date when="2018-11-02">2 novembre 2018</date></p>
+            <p>Creazione del body il <date when="2018-11-03">3 novembre 2018</date></p>
+            <p>Correzione di alcuni attributi il <date when="2018-11-05">5 novembre 2018</date></p>
+            <p>Ultime modifiche di perfezionamento il <date when="2018-11-07">7 novembre 2018</date></p>
         </revisionDesc>
     </teiHeader>
 
     <text xml:lang="it"> 
         <front> <!--codifico le informazioni che precedono il testo vero e proprio-->
             <p>Capitolo III</p> <!--numero del capitolo-->
-            <head>Tasso e l'esperienza della follia</head> <!--titolo del capitolo-->
         </front>
 
         <body> <!--codifico il contenuto vero e proprio del testo-->
-            <head>Sintesi</head> <!--titolo della pagina-->
+            <head>Tasso e l'esperienza della follia</head> <!--titolo della pagina-->
             <div>
                 <list style="list-style-type: square"> <!--contenuto della pagina organizzato a lista-->
-                    <item n="1">
-                        <p> 
-                        <hi style="font-weight: bold; color: red">La vita</hi>
-                        <name type="person">Torquato Tasso</name> nasce a <name type="place">Sorrento</name> l'<date>11 marzo 1544</date>. 
+                    <head>Sintesi</head> <!--titolo della lista-->
+                    <label style="font-weight: bold; color: red">La vita</label> <!--etichetta associata all'item-->
+                    <item n="1"> <!--un elemento della lista-->
+                        <p>
+                        <name type="person">Torquato Tasso</name> nasce a <name type="place">Sorrento</name> l'<date when="1544-03-11">11 marzo 1544</date>. 
                         La fanciullezza e la giovinezza del poeta appaiono segnate dalla sventura. 
-                        Nel <date>1560</date>, mentre è con il padre a <name type="place">Venezia</name>, <name type="person">Torquato</name> inizia un poema sulla prima crociata <title style="font-style: italic">(Gierusalemme)</title>, abbozzo del futuro capolavoro.
-                        Tra il <date>1560</date> e il <date>1565</date> ha modo di dedicarsi agli studi, a <name type="place">Padova</name> e poi a <name type="place">Bologna</name>.
-                        Nel <date>1565</date> si determina una svolta nella vita di <name type="person">Tasso</name>, che entra al servizio del <name type="person">cardinale Luigi d'Este</name>, trasferendosi a <name type="place">Ferrara</name>.
+                        Nel <date when="1560">1560</date>, mentre è con il padre a <name type="place">Venezia</name>, <name type="person">Torquato</name> inizia un poema sulla prima crociata <title style="font-style: italic">(Gierusalemme)</title>, abbozzo del futuro capolavoro.
+                        Tra il <date when="1560">1560</date> e il <date when="1565">1565</date> ha modo di dedicarsi agli studi, a <name type="place">Padova</name> e poi a <name type="place">Bologna</name>.
+                        Nel <date when="1565">1565</date> si determina una svolta nella vita di <name type="person">Tasso</name>, che entra al servizio del <name type="person">cardinale Luigi d'Este</name>, trasferendosi a <name type="place">Ferrara</name>.
                         Subito comincia a lavorare a un nuovo poema <title rend="italic">(Gerusalemme liberata)</title> la cui stesura lo impegnerà per circa un decennio.
                         È questo un periodo di eccezionale serenità nella vita del poeta.
-                        Nel <date>1572</date> egli entra al servizio del <name type="person">duca Alfonso II</name>.
-                        Nel <date>1573</date> compone l'<title rend="italic">Aminta</title> e nel <date>1575</date> può infine leggere al duca il poema sulla prima crociata.
-                        Da questo momento, però, l'equilibrio faticosamente raggiunto subisce continue crisi, arrivando in pochi anni a spezzarsi del tutto; ciò induce il duca a far rinchiudere il poeta come pazzo nell'<name type="place">ospedale di Sant'Anna</name> <date>(1579)</date>.
+                        Nel <date when="1572">1572</date> egli entra al servizio del <name type="person">duca Alfonso II</name>.
+                        Nel <date when="1573">1573</date> compone l'<title rend="italic">Aminta</title> e nel <date when="1575">1575</date> può infine leggere al duca il poema sulla prima crociata.
+                        Da questo momento, però, l'equilibrio faticosamente raggiunto subisce continue crisi, arrivando in pochi anni a spezzarsi del tutto; ciò induce il duca a far rinchiudere il poeta come pazzo nell'<name type="place">ospedale di Sant'Anna</name> <date when="1579">(1579)</date>.
                         La reclusione dura <num type="cardinal">7</num> anni.
-                        Dopo la liberazione dalla prigionia <date>(1586)</date>, la consueta irrequietezza spinge il poeta a cercare sempre nuove destinazioni: <name type="place">Mantova</name>, <name type="place">Bergamo</name>, <name type="place">Roma</name>, <name type="place">Napoli</name>.
-                        Nel <date>1593</date> pubblica il poema, dopo averlo sottoposto a un sostanziale rifacimento, con il titolo di <title rend="italic">Gerusalemme conquistata</title>.
-                        Muore a <name type="place">Roma</name> il <date>25 aprile 1595</date>.
+                        Dopo la liberazione dalla prigionia <date when="1586">(1586)</date>, la consueta irrequietezza spinge il poeta a cercare sempre nuove destinazioni: <name type="place">Mantova</name>, <name type="place">Bergamo</name>, <name type="place">Roma</name>, <name type="place">Napoli</name>.
+                        Nel <date when="1593">1593</date> pubblica il poema, dopo averlo sottoposto a un sostanziale rifacimento, con il titolo di <title rend="italic">Gerusalemme conquistata</title>.
+                        Muore a <name type="place">Roma</name> il <date when="1595-04-25">25 aprile 1595</date>.
                         </p>
                     </item>
 
+                    <label style="font-weight: bold; color: red">Le opere</label>
                     <item n="2">
                         <p>
-                        <hi style="font-weight: bold; color: red">Le opere</hi>
                         Le opere principali di <name type="person">Torquato Tasso</name>, oltre alla <title rend="italic">Gerusalemme liberata</title>, sono le <title rend="italic">Rime</title>, l'<title rend="italic">Aminta</title>, i <title rend="italic">Dialoghi</title>, le <title rend="italic">Lettere</title>.
                         </p>
                     </item>
 
+                    <label style="font-weight: bold; color: red">Le <title rend="italic">Rime</title></label>
                     <item n="3">
                         <p>
-                        <hi style="font-weight: bold; color: red">Le <title rend="italic">Rime</title></hi>
                         Diversamente da <name type="person">Petrarca</name>, <name type="person">Tasso</name> non potè dare un'organizzazione soddisfacente alla propria opera lirica.
                         Questa si inserisce nella grande tradizione del <title rend="italic">Canzoniere</title> petrarchesco e del petrarchismo cinquecentesco, ma la attraversa e la rinnova con profonda originalità.
                         </p>
                     </item>
 
+                    <label style="font-weight: bold; color: red">L'<title rend="italic">Aminta</title></label>
                     <item n="4">
                         <p>
-                        <hi style="font-weight: bold; color: red">L'<title rend="italic">Aminta</title></hi>
-                        Rappresentata per la prima volta nell'estate del <date>1573</date>, è una favola boschereccia.
+                        Rappresentata per la prima volta nell'estate del <date when="1573">1573</date>, è una favola boschereccia.
                         Il dramma è diviso in <num type="cardinal" value="5">cinque</num> atti, secondo le norme aristoteliche, preceduti da un prologo; ogni atto è concluso da un coro.
                         Lo svolgimento dell'azione è estremamente semplice e riguarda l'amore, all'inizio contrastato ma destinato a felice conclusione, di <name type="person">Aminta</name> per la ninfa <name type="person">Silvia</name>.
                         </p>
                     </item>
 
+                    <label style="font-weight: bold; color: red">I<title rend="italic">Dialoghi</title></label>
                     <item n="5">
                         <p>
-                        <hi style="font-weight: bold; color: red">I<title rend="italic">Dialoghi</title></hi>
-                        I <num type="cardinal" value="26">ventisei</num> dialoghi tasseschi conservati furono composti nell'estate del <date>1578</date> e il <date>1579</date>.
+                        I <num type="cardinal" value="26">ventisei</num> dialoghi tasseschi conservati furono composti nell'estate del <date when="1578">1578</date> e il <date when="1579">1579</date>.
                         La materia affrontata è assai varia: si va da argomenti filosofici a temi morali o letterari anche legati alla quotidianità e all'autobiografia.
                         Al fondo si intravede un costante bisogno psicologico di legittimazione, di autodifesa.
                         </p>
                     </item>
 
+                    <label style="font-weight: bold; color: red">Le <title rend="italic">Lettere</title></label>
                     <item n="6">
                         <p>
-                        <hi style="font-weight: bold; color: red">Le <title rend="italic">Lettere</title></hi>
                         L'epistolario tedesco, costituito da circa <num type="cardinal" value="2000">duemila</num> lettere, è uno dei più importanti della nostra letteratura.
                         Al modello dell'epistolario petrarchesco, calcolato e organizzato come un'opera letteraria, <name type="person">Tasso</name> contrappone un insieme caotico e incontrollato di lettere, nelle quali non è mai presente il tentativo di dare un'immagine idealizzata di sé.
                         </p>
