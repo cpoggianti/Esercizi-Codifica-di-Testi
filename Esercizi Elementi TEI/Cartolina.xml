@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?> <!--inserimento prologo XML-->
+<!DOCTYPE TEI SYSTEM "tei_lite.dtd">
+<TEI xmlns="http://www.teic.org/ns/1.0"> <!--root-->
+    <teiHeader xml:lang="it"> <!--intestazione TEI-->
+        <fileDesc> <!--descrizione del file digitale-->
+
+            <titleStmt> <!--raggruppo le informazioni sul titolo del documento e sulle responsabilità del suo contenuto intellettuale-->
+                <title>Una cartolina dalla Francia</title> <!--titolo dell'edizione digitale-->
+                <respStmt> <!--marco il responsabile dell'edizione digitale-->
+                    <resp>Conversione TEI P5 a cura di</resp> 
+                    <name type="person">Camilla Poggianti</name>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt> <!--marco le responsabilità di pubblicazione del documento elettronico-->
+                <publisher type="person">Camilla Poggianti</publisher>
+                <date when="2018-11-08">10 novembre 2018</date>
+                <address>Via De' Mari</address> <!--indirizzo di pubblicazione-->
+                <pubPlace>Capraia Isola</pubPlace> <!--luogo di pubblicazione-->
+                <availability status="restricted"> <!--dico che la disponibilità del testo è ristretta-->
+                    <p>Disponibile solo per ricerce studentesche</p>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc> <!--inserisco un'entrata bibliografica relativa all'edizione cartacea che sto digitalizzando-->
+                <bibl>
+                    <author>Jian</author> 
+                    <date when="1982-03-22">22/3/82</date>
+                    <publisher xml:lang="fr">CHANTAL</publisher>
+                    <address xml:lang="fr">74, rue des Archives</address>
+                    <pubPlace xml:lang="fr">Paris</pubPlace>
+                </bibl>
+            </sourceDesc>
+
+        </fileDesc>
+
+        <encodingDesc> <!--informazioni riguardanti lo schema e il modello di codifica-->
+            <p>Codifica di base con acquisizione di informazioni lessicali, semantiche e strutturali. Codifica anche delle immagini presenti.</p>
+        </encodingDesc>
+
+        <revisionDesc> <!--informazioni sulle versioni del file-->
+            <p>Creazione della teiHeader e del body il <date when="2018-11-07">7 novembre 2018</date></p>
+        </revisionDesc>
+    </teiHeader>
+
+    <text xml:lang="it"> <!--inizio a codificare il testo della cartolina-->
+        <body>
+            <div type="recto">  <!--codifica del recto della cartolina, ovvero la parte contenente la foto-->
+                
+            </div>
+
+            <div type="verso"> <!--codifica del verso della cartolina, ovvero la parte scritta-->
+            
+                <div type="message"> <!--codifico il messaggio della cartolina-->
+                    <date when="1982-02-22">22/3/82</date>
+                    <p>Non è quello che mi avevi chiesto, ma è molto più bello. Ciao</p>
+                    <signed>Jian</signed> <!--firma della cartolina-->
+                </div>
+
+                <div type="generalInformation"> <!--codifico le informazioni stampate sulla cartolina-->
+                    <figure>
+                        <figDesc> <!--descrizione dell'immagine stampata sulla cartolina prima del messaggio-->
+                        Silhouette della Francia con all'interno scritto:
+                            <mentioned xml:lang="fr">Image de France Imprimée en France</mentioned>
+                        </figDesc>
+                    </figure>
+                    <p xml:lang="fr">PARIS</p>
+                    <p xml:lang="fr"> <num type="cardinal" value="693">693</num> - Sur le parvis de Notre Dame</p>
+                    <p xml:lang="fr"> Editions CHANTAL, 74 Rue des Archives, Paris</p>
+                    <p xml:lang="fr"> Fabrication française - Reproduction interdite</p>
+                    <p xml:lang="fr"> Cliché CEDRI - Rosine Mazin</p>
+                </div>
+
+                <div type="destination"> <!--codifico le informazioni relative alla destinazione della cartolina con eventuali francobolli e timbri annessi-->
+                    <ab>
+                        <stamp type="publicity"> <!--descrizione del timbro pubblicitario-->
+                        Elemento rettangolare contenente a sinistra un elemento circolare, con al centro mezza sfera retata, contenente le parole:
+                            <mentioned xml:lang="fr">82 PHILEXFRANCE</mentioned>.
+                        Di lato a destra dell'elemento rettangolare vi è scritto:
+                            <mentioned xml:lang="fr">EXPOSITION PHILATELIQUE INTERNATIONALE PHILEXFRANCE 82 11 AU 21 JUIN 1982 CNIT-PARIS LA DEPÉNSE PARIS GAREPLM <date when="1982-03-23">22-3-82</date></mentioned>
+                        </stamp>
+
+                        <stamp type="postmark"> <!--descrizione del timbro postale-->
+                        elemento circolare con scritto
+                            <mentioned xml:lang="fr">PARIS 12 30 <date when="1982-03-23">23-3 1982</date> GARE PLM</mentioned>
+                        </stamp>
+
+                        <stamp type="postage"><!--descrizione del francobollo-->
+                        Francobollo rettangolare color verde striato con al centro la bandiera francese e un aeroplano stilizzati. In alto a sinistra è riportato il numero
+                            <mentioned><num>1,40</num></mentioned>;
+                        in alto a destra la scritta
+                            <mentioned xml:lang="fr">FRANCE</mentioned>;
+                        in basso la scritta
+                            <mentioned xml:lang="fr">CENTENAIRE DE LA CAISSE NATIONALE</mentioned>
+                        </stamp>
+                    </ab>
+
+                    <address><!--specifico l'indirizzo postale del destinatario-->
+                        <name type="person">MR. ARNALDO LOSI</name>
+                        <addrLine>VIA MALMUSI <num type="cardinal" value="40">40</num></addrLine>
+                        <addrLine><num type="cardinal" value="41100">41100</num> MODENA</addrLine>
+                        <addrLine xml:lang="fr" rend="underline">ITALIE</addrLine>
+                    </address>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
