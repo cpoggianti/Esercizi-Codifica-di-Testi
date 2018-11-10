@@ -46,7 +46,10 @@
     <text xml:lang="it"> <!--inizio a codificare il testo della cartolina-->
         <body>
             <div type="recto">  <!--codifica del recto della cartolina, ovvero la parte contenente la foto-->
-                
+                <figure>
+                    <head>Notre-Dame.</head> <!--didascalia dell'immagine-->
+                    <figDesc>Antica fotografia color seppia raffigurante la cattedrale di Notre Dame a Parigi, bordata con una cornice sempre color seppia</figDesc> <!--descrizione in linguaggio naturale dell'immagine che fa da copertina alla cartolina-->
+                </figure>
             </div>
 
             <div type="verso"> <!--codifica del verso della cartolina, ovvero la parte scritta-->

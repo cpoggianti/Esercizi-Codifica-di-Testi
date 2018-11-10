@@ -9,7 +9,7 @@ CodificaTestoQualsiasi.xml) Prendere un testo a piacere e marcarlo.
 
 ---------------
 
-Cartolina.xml) Codificare, usando gli opportuni elementi TEI, una cartolina.
+Esercizio Cartolina) Codificare, usando gli opportuni elementi TEI, una cartolina.
 
 ---------------
 
