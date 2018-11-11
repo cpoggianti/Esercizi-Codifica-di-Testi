@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?> <!--inserimento prologo XML-->
+<!DOCTYPE TEI SYSTEM "tei_lite.dtd">
+<TEI xmlns="http://www.teic.org/ns/1.0"> <!--root-->
+    <teiHeader xml:lang="it"> <!--intestazione TEI-->
+        <fileDesc> <!--descrizione del file digitale-->
+            <titleStmt> <!--raggruppo le informazioni sul titolo del documento e sulle responsabilità del suo contenuto intellettuale-->
+                <title>Articolo di rivista: versione elettronica</title> <!--titolo dell'edizione digitale-->
+                <respStmt> <!--marco il responsabile dell'edizione digitale-->
+                    <resp>Conversione TEI P5 a cura di</resp> 
+                    <name type="person">Camilla Poggianti</name>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt> <!--marco le responsabilità di pubblicazione del documento elettronico-->
+                <publisher type="person">Camilla Poggianti</publisher>
+                <date when="2018-11-08">11 novembre 2018</date>
+                <address>Via De' Mari</address> <!--indirizzo di pubblicazione-->
+                <pubPlace>Capraia Isola</pubPlace> <!--luogo di pubblicazione-->
+                <availability status="restricted"> <!--dico che la disponibilità del testo è ristretta-->
+                    <p>Disponibile solo per ricerce studentesche</p>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc> <!--inserisco un'entrata bibliografica relativa all'edizione cartacea che sto digitalizzando-->
+                <bibl>
+                    <analytic> <!--specifico che non si tratta di una pubblicazione autonoma ma di un articolo di rivista-->
+                        <author>Silvia del Vecchio</author> <!--autore dell'articolo-->
+                        <title level="a">Essere UP&amp;DOWN</title> <!--titolo dell'articolo di rivista-->
+                    </analytic>
+
+                    <monogr> <!--elementi bibliografici che descrivono un'opera pubblicata indipendentemente, come una rivista-->
+                        <title type="full" level="j"> <!--titolo della rivista-->
+                            <title type="main">La Freccia</title> <!--titolo principale-->
+                            <title type="sub">Art&amp;Show</title> <!--sottotitolo-->
+                        </title> 
+                        <imprint> <!--codifico informazioni riguardo la pubblicazione-->
+                            <publisher>Edizioni La Freccia</publisher> <!--editore-->
+                            <date when="2018-11">NOV 2018</date> <!--data di pubblicazione-->
+                        </imprint>
+                        <biblScope unit="page" from="1" to="84"/> <!--definisco l'estensione del riferimento bibliografico-->
+                    </monogr>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc> <!--informazioni riguardanti lo schema e il modello di codifica-->
+            <p>Codifica di base con acquisizione di informazioni lessicali, semantiche e strutturali. Codifica anche delle immagini presenti.</p>
+        </encodingDesc>
+
+        <revisionDesc> <!--informazioni sulle versioni del file-->
+            <p>Creazione della teiHeader e del body l' <date when="2018-11-11">11 novembre 2018</date></p>
+        </revisionDesc>
+    </teiHeader>
+
+    <text xml:lang="it"> <!--codifica del contenuto della pagina-->
+        <pagina n="26"/>
+            <front> <!--codifica del materiale che precede il testo-->
+                <div type="pubblicità" style="background-color: red">
+                    <p><name type="place">ROMA</name></p>
+                    <p><num type="cardinal" value="131 48 18">131 48 18</num></p>
+                    <p><num type="cardinal" value="5">5</num> CORSE BUSITALIA FAST AL GIORNO</p>
+                </div>
+                <div type="infoAutore">
+                    <p rend="bold">SUL PALCO</p>
+                    <p rend="italic">di <name type="person">Silvia Del Vecchio</name></p>
+                </div>
+            </front>
+
+            <body> <!--codifica del contenuto vero e proprio del testo-->
+            </body>
+
+            <back> <!--codifica del materiale che segue il testo-->
+            </back>
+    </text>
+</TEI>

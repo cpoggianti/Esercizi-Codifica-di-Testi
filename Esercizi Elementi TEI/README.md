@@ -10,9 +10,11 @@ CodificaTestoQualsiasi.xml) Prendere un testo a piacere e marcarlo.
 ---------------
 
 Esercizio Cartolina) Codificare, usando gli opportuni elementi TEI, una cartolina.
+Ho inserito nella cartella la foto del davanti e del dietro della cartolina che ho codificato.
 
 ---------------
 
-Articolo.xml) Codificare, usando gli opportuni elementi TEI, un articolo di rivista
+Esercizio Articolo) Codificare, usando gli opportuni elementi TEI, un articolo di rivista
+Ho inserito nella cartella la foto delle due pagine della rivista codificate e anche la copertina della rivista dalla quale prendo le informazioni editoriali.
 
 ---------------
