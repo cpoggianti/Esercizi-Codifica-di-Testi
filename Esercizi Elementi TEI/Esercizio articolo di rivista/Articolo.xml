@@ -54,22 +54,61 @@
 
     <text xml:lang="it"> <!--codifica del contenuto della pagina-->
         <pagina n="26"/>
-            <front> <!--codifica del materiale che precede il testo-->
-                <div type="pubblicità" style="background-color: red">
-                    <p><name type="place">ROMA</name></p>
-                    <p><num type="cardinal" value="131 48 18">131 48 18</num></p>
-                    <p><num type="cardinal" value="5">5</num> CORSE BUSITALIA FAST AL GIORNO</p>
-                </div>
-                <div type="infoAutore">
-                    <p rend="bold">SUL PALCO</p>
-                    <p rend="italic">di <name type="person">Silvia Del Vecchio</name></p>
-                </div>
-            </front>
+        <front> <!--codifica del materiale che precede il testo-->
+            <div type="pubblicità" style="background-color: red">
+                <p><name type="place">ROMA</name></p>
+                <p><num type="cardinal" value="131 48 18">131 48 18</num></p>
+                <p><num type="cardinal" value="5">5</num> CORSE BUSITALIA FAST AL GIORNO</p>
+            </div>
+            <div type="infoAutore">
+                <p rend="bold">SUL PALCO</p>
+                <p rend="italic">di <name type="person">Silvia Del Vecchio</name></p>
+            </div>
+        </front>
 
-            <body> <!--codifica del contenuto vero e proprio del testo-->
-            </body>
+        <body> <!--codifica del contenuto vero e proprio del testo-->
+            <figure> <!--codifico informazioni relative all'immagine-->
+                <figDesc> <!--descrizione in linguaggio naturale dell'immagine-->
+                Foto in bianco e nero raffigurante Paolo Ruffini su un palco, con un microfono nellamano destra, mentre abbraccia e bacia sulla testa l'attore Simone Cavalieri. In alto a destra dell'immagine è riportato il nome dell'autrice dello scatto: <mentioned>@Chiara Calabrò</mentioned>
+                </figDesc>
+                <head><name type="person">Paolo Ruffini</name> abbraccia sul palco del <name type="place">Teatro Nazionale di Milano</name> l'attore <name type="person">Simone Cavalieri</name> (<date when="2018-03">marzo 2018</date>)</head> <!--didascalia dell'immagine-->
+            <figure>
 
-            <back> <!--codifica del materiale che segue il testo-->
-            </back>
+            <head>ESSERE UP&amp;DOWN</head> <!--titolo-->
+
+            <div type="colonna1"> <!--codifica del testo della prima colonna-->
+                <p>
+                    <q> <!--codifico un discorso diretto-->
+                        <hi rend="triple" style="color: orange">"C</hi> <!--la prima lettera è 3 volte più grande rispetto al resto del testo e di colore arancione-->
+                    onosco <name type="person">Lamberti Giovanni</name> da <num type="cardinal" value="20">20</num> anni, ma <num type="cardinal" value="5">cinque</num> anni fa a <name type="place">Livorno</name> ho assistito allo spettacolo della sua Compagnia, la <name>Mayor Von Frinzius</name>, che vedeva in scena tutti i suoi <num type="cardinal" value="90">90</num> attori, di cui la metà sono ragazzi con la sindrome di Down.
+                    Sono rimasto affascinato e ho deciso di lavorare a un progetto teatrale insieme a loro".
+                    </q>
+                Così è nato il primo show, <title rend="italic">Un grande abbraccio</title>, 
+                    <corr><!--correzione del testo cartaceo da parte mia-->
+                        <agg>che</agg> <!--ho corretto il testo aggiungendo la parola "che"-->
+                    </corr>     
+                poi la scorsa primavera <name type="person">Paolo Ruffini</name> e i suoi ragazzi hanno portato al <name type="place">Teatro Sistina di Roma</name> <title rend="italic">Up&amp;Down</title>
+                Durante i backstage, i viaggi e vari momenti del tour è stato realizzato un film documentario che, partendo da dietro le quinte, racconta la storia di questi attori.
+                Un lavoro che ha ricevuto il <name type="premio">Premio Kinéo</name> alla <name type="event">Mostra
+            </div>
+
+            <div type="colonna2"> <!--codifica del testo della seconda colonna-->
+                del Cinema di Venezia</name>
+                </p>
+            </div>
+        </body>
+
+        <back> <!--codifica del materiale che segue il testo-->
+        </back>
+
+        <pagina n="27"/>
+        <front>
+        </front>
+
+        <body>
+        </body>
+
+        <back>
+        </back>
     </text>
 </TEI>
