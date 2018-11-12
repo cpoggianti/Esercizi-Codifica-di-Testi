@@ -48,16 +48,31 @@
         </encodingDesc>
 
         <revisionDesc> <!--informazioni sulle versioni del file-->
-            <p>Creazione della teiHeader e del body l' <date when="2018-11-11">11 novembre 2018</date></p>
+            <p>Creazione della teiHeader il <date when="2018-11-10">10 novembre 2018</date></p>
+            <p>Codifica della prima pagina dell'articolo l' <date when="2018-11-11">11 novembre 2018</date></p>
+            <p>Codifica della seconda pagina dell'articolo il <date when="2018-11-12">12 novembre 2018</date></p>
         </revisionDesc>
     </teiHeader>
 
     <text xml:lang="it"> <!--codifica del contenuto della pagina-->
-        <pagina n="26"/>
+        <pb n="26"/> <!--codifica pagina n°26-->
         <front> <!--codifica del materiale che precede il testo-->
             <div type="pubblicità" style="background-color: red">
                 <p><name type="place">ROMA</name></p>
-                <p><num type="cardinal" value="131 48 18">131 48 18</num></p>
+                <p>
+                    <num type="cardinal" value="131">131</num>
+                    <figure>
+                        <figDesc>Elemento circolare grigio con all'interno disegnato stilizzato un treno rosso</figDesc>
+                    </figure>
+                    <num type="cardinal" value="48">48</num>
+                    <figure>
+                        <figDesc>Elemento circolare grigio con all'interno disegnato stilizzato un treno grigio scuro</figDesc>
+                    </figure>
+                    <num type="cardinal" value="18">18</num>
+                    <figure>
+                        <figDesc>Elemento circolare grigio con all'interno disegnato stilizzato un treno bianco</figDesc>
+                    </figure>
+                </p>
                 <p><num type="cardinal" value="5">5</num> CORSE BUSITALIA FAST AL GIORNO</p>
             </div>
             <div type="infoAutore">
@@ -68,47 +83,108 @@
 
         <body> <!--codifica del contenuto vero e proprio del testo-->
             <figure> <!--codifico informazioni relative all'immagine-->
+                <docAuthor>Chiara Calabrò</docAuthor> <!--autore della fotografia-->
                 <figDesc> <!--descrizione in linguaggio naturale dell'immagine-->
-                Foto in bianco e nero raffigurante Paolo Ruffini su un palco, con un microfono nellamano destra, mentre abbraccia e bacia sulla testa l'attore Simone Cavalieri. In alto a destra dell'immagine è riportato il nome dell'autrice dello scatto: <mentioned>@Chiara Calabrò</mentioned>
+                Foto in bianco e nero raffigurante Paolo Ruffini su un palco, con un microfono nellamano destra, mentre abbraccia e bacia sulla testa l'attore Simone Cavalieri. In alto a destra dell'immagine è riportato il nome dell'autrice dello scatto: <mentioned>&#169;Chiara Calabrò</mentioned>
                 </figDesc>
                 <head><name type="person">Paolo Ruffini</name> abbraccia sul palco del <name type="place">Teatro Nazionale di Milano</name> l'attore <name type="person">Simone Cavalieri</name> (<date when="2018-03">marzo 2018</date>)</head> <!--didascalia dell'immagine-->
-            <figure>
+            </figure>
 
             <head>ESSERE UP&amp;DOWN</head> <!--titolo-->
 
-            <div type="colonna1"> <!--codifica del testo della prima colonna-->
-                <p>
-                    <q> <!--codifico un discorso diretto-->
-                        <hi rend="triple" style="color: orange">"C</hi> <!--la prima lettera è 3 volte più grande rispetto al resto del testo e di colore arancione-->
-                    onosco <name type="person">Lamberti Giovanni</name> da <num type="cardinal" value="20">20</num> anni, ma <num type="cardinal" value="5">cinque</num> anni fa a <name type="place">Livorno</name> ho assistito allo spettacolo della sua Compagnia, la <name>Mayor Von Frinzius</name>, che vedeva in scena tutti i suoi <num type="cardinal" value="90">90</num> attori, di cui la metà sono ragazzi con la sindrome di Down.
-                    Sono rimasto affascinato e ho deciso di lavorare a un progetto teatrale insieme a loro".
-                    </q>
-                Così è nato il primo show, <title rend="italic">Un grande abbraccio</title>, 
-                    <corr><!--correzione del testo cartaceo da parte mia-->
-                        <agg>che</agg> <!--ho corretto il testo aggiungendo la parola "che"-->
-                    </corr>     
-                poi la scorsa primavera <name type="person">Paolo Ruffini</name> e i suoi ragazzi hanno portato al <name type="place">Teatro Sistina di Roma</name> <title rend="italic">Up&amp;Down</title>
-                Durante i backstage, i viaggi e vari momenti del tour è stato realizzato un film documentario che, partendo da dietro le quinte, racconta la storia di questi attori.
-                Un lavoro che ha ricevuto il <name type="premio">Premio Kinéo</name> alla <name type="event">Mostra
-            </div>
+            <cb n="1"/> <!--codifica del testo della prima colonna-->
+            <p>
+                <q> <!--codifico un discorso diretto-->
+                    <hi rend="triple" style="color: orange">"C</hi> <!--la prima lettera è 3 volte più grande rispetto al resto del testo e di colore arancione-->
+                onosco <name type="person">Lamberti Giovanni</name> da <num type="cardinal" value="20">20</num> anni, ma <num type="cardinal" value="5">cinque</num> anni fa a <name type="place">Livorno</name> ho assistito allo spettacolo della sua Compagnia, la <name>Mayor Von Frinzius</name>, che vedeva in scena tutti i suoi <num type="cardinal" value="90">90</num> attori, di cui la metà sono ragazzi con la sindrome di Down.
+                Sono rimasto affascinato e ho deciso di lavorare a un progetto teatrale insieme a loro".
+                </q>
+            Così è nato il primo show, <title rend="italic">Un grande abbraccio</title>, 
+                <corr><!--correzione del testo cartaceo da parte mia-->
+                    <agg>che</agg> <!--ho corretto il testo aggiungendo la parola "che"-->
+                </corr>     
+            poi la scorsa primavera <name type="person">Paolo Ruffini</name> e i suoi ragazzi hanno portato al <name type="place">Teatro Sistina di Roma</name> <title rend="italic">Up&amp;Down</title>
+            Durante i backstage, i viaggi e vari momenti del tour è stato realizzato un film documentario che, partendo da dietro le quinte, racconta la storia di questi attori.
+            Un lavoro che ha ricevuto il <name type="premio">Premio Kinéo</name> alla <name type="event">Mostra
 
-            <div type="colonna2"> <!--codifica del testo della seconda colonna-->
-                del Cinema di Venezia</name>
-                </p>
-            </div>
+            <cb n="2"/> <!--codifica del testo della seconda colonna-->
+            del Cinema di Venezia</name> e che dal <date when="10-25">25 ottobre</date> è uscito nelle sale italiane.
+            Dopo il successo in <name type="place">Laguna</name> sono arrivate tante richieste da parte di associazioni e scuole per organizzare proiezioni di <title rend="italic">Up&amp;Down - Un film normale</title> in diverse sedi, questo autunno.
+            </p>
+            <p>Tornando allo spettacolo, il <date when="2018-11-06">6</date> e <date when="2018-11-26">26 novembre</date> è in scena al <name type="place">Brancaccio di Roma</name>, il <date when="2018-11-13">13</date> al <name type="place">Teatro Politeama di Genova</name>, il <date when="2018-11-14">14</date> all'<name type="place">Alfieri di Torino</name>, il <date when="2018-11-20">20</date> al <name type="place">Verdi di Firenze</name> e il <date when="2018-11-29">29</date> al <name type="place">Teatro Celebrazioni di Bologna</name>.</p>
+            <p>Sul palco <name type="person">Ruffini</name> e <num type="cardinal" value="6">sei</num> attori in alternanza tra <name type="person">Erika Bonura</name>, <name type="person">David Raspi</name>, <name type="person">Giacomo Scarno</name>, <name type="person">Federico Parlanti</name>, <name type="person">Andrea Lo Schiavo</name>, <name type="person">Giacomo Logorio</name> e <name type="person">Simone Cavaleri</name>, in un <hi xml:lang="en">happening</hi> comico e al tempo stesso</p>
+
+            <cb n="3"/> <!--codifica del testo della terza colonna-->
+            <p>LA VITA È FATTA DI ALTI E BASSI, L'IMPORTANTE È SAPERLA PRENDERE E NON ESSERE DISABILI ALLA FELICITÀ. <name type="person">PAOLO RUFFINI</name> RACCONTA LO SPETTACOLO CHE A <date when="2018-11">NOVEMBRE</date> PORTA IN SCENA CON I RAGAZZI DELLA COMPAGNIA LIVORNESE <name type="compagnia">MAYOR VON FRINZIUS</name></p>
         </body>
 
         <back> <!--codifica del materiale che segue il testo-->
+            <p> 
+                <num type="cardinali" value="26">26</num>
+                <figure>
+                    <figDesc>Logo dell'editore "La Freccia", rotondo color rosso con internamente le iniziali <mentioned>LF</mentioned></figDesc>
+                </figure>
+                <date when="2018-11">NOV2018</date>
+            </p>
         </back>
+    </text>
 
-        <pagina n="27"/>
-        <front>
-        </front>
-
+    <text xml:lang="it">
+        <pb n="27"/> <!--codifica pagina n°27-->
+        
         <body>
+            <cb n="4"/> <!--codifica del testo della quarta colonna-->
+            <p>emozionante che parla di bellezza e diversità.
+                <q>"Ci tengo a sottolineare che si tratta di veri attori, contrattualizzati, e di uno spettacolo commerciale, non di beneficenza, tra l'altro fuori abbonamento. Chi viene a vederci deve scegliere liberamente, valorizziamo l'indipendenza artistica, la parità, lo <hi xml:lang="en">show</hi> popolare, puntando un faro proprio sulla funzione del teatro"</q>
+            , prosegue <name type="person">Ruffini</name>.
+            Ecco in breve la storia: il comico e presentatore livornese sta pensando il suo <hi xml:lang="en">one man show</hi> quando inizia una vera e propria opera di sabotaggio.
+            I ragazzi fanno irruzione sul palco, dimostrando di essere più abili di lui in diverse discipline.
+                <q>"Ovviamente c'è un canovaccio, ma vincono l'interazione, il coinvolgimento del pubblico e l'improvvisazione. È più di uno spettacolo, è un'esperienza sempre diversa. Uno <hi xml:lang="en">show</hi> comico e irriverente che si chiude con la commozione di tutte le persone in sala strette in un grande abbraccio"</q>
+            .</p>
+            <p>Per <name type="person">Paolo</name> è difficile ora vivere senza di loro:
+                <q>"Ormai non riesco quasi più a lavorare con persone cosiddette "abili". È molto più divertente e stimolante interagire con chi la ha sindrome di Down piuttosto con chi è <hi xml:lang="en">in down"</hi> veramente, questi ragazzi hanno una confidenza con la felicità che spesso manca a molti. In un momento in cui si parla più di <hi xml:lang="en">reality</hi> che di realtà e di <hi xml:lang="en">social</hi> più che di sociale, fare uno spettacolo del genere credo sia una grande opportunità. È un'impresa teatrale vera che valorizza la parità senza alcuna forma di pietismo, perchè nella vita, per fortuna, si può avere anche un altro tipo di approccio"</q>
+            . Quasi un atto egoistico, per nutrirsi dell'energia e della positività di questi attori,
+                <q>"in un mondo più lento, meno malizioso, più fisico, loro sono molto "abbraccioni". Li ringrazio ogni giorno perchè rischiavo di rimanere ore con la testa chinata sullo <hi xml:lang="en">smartphone</hi>"</q>
+            .</p>
+            <p><name type="person">Ruffini</name> definisce le prove un enorme spreco di energia, confidando che a volte sono ancora meglio dello spettacolo stesso, con tanti momenti irriverenti che nascono
+
+            <figure>
+                <docAuthor>Teo di Biase</docAuthor> <!--autore della fotografia-->
+                <docAuthor>Mario Iovinella</docAuthor>
+                <figDesc> <!--descrizione in linguaggio naturale della fotografia-->
+                Fotografia a colori che ritrae Paolo Ruffini seduto su una poltrona di teatro in velluto rossa, circondato da attori con la sindrome di Down. Di lato a sinistra della fotografia sono riportati gli autori dello scatto: <mentioned>&#169;<name type="person">Teo di Biase</name> e <name type="person">Mario Iovinella</name></mentioned>
+                </figDesc>
+                <head><name type="person">Paolo Ruffini</name> con gli attori della <name type="compagnia">Compagnia Mayor Von Frinzius</name> di <name type="person">Lamberto Giannini</name></head> <!--didascalia della fotografia-->
+            </figure>
+
+            <cb n="5"/> <!--codifica del testo della quinta colonna-->
+            spontaneamente e vengono magari riproposti anche davanti al pubblico.
+                <q>!La diversità a teatro diventa un valore, una risorsa, un'occasione per emozionarsi e sognare. Il palcoscenico dovrebbe essere l'ambiente naturale per tutti, per conoscersi meglio, abbracciare di più se stessi e gli altri. Un ragazzo autistico che lavora con noi ha fatto dei passi avanti notevoli, a livello logopedico ed emotivo. Il teatro non è mai normale, non esiste uno spettacolo normale, un sogno normale, una persona normale. Le persone Down, poi, riescono a dire tante bugie ma senza essere false, sono attori nati, è come se avessero una maschera da commedia dell'arte istantanea. Siamo tutti <hi xml:lang="en">up</hi> e tutti <hi xml:lang="en">down</hi> nella vita, il teatro insegna la libertà di essere se stessi, quindi anche di essere disabili. Se penso a quante persone disabili al sorriso ho incontrato oggi, credo che la maggior parte della gente sia molto più disabile di loro"</q>
+            .</p>
+            <p>
+            <title rend="italic">Up&amp;Down</title> regala sorrisi e grande commozione finale, la diffidenza più che altro è nel decidere se andare a vedere questo spettacolo,
+
+            <cb n="6"/> <!--codifica del testo della sesta colonna-->
+            e ciò intriga <name type="person">Paolo</name>, che tra l'altro ha scelto di festeggiare i suoi <num type="cardinal" value="40">40</num> anni il <date when="11-26">26 novembre</date> propsio sul palco del <name typeP="place">Brancaccio di Roma</name>:
+                <q>"Sarà un bellissimo compleanno, mi faccio davvero un mega regalo"</q>
+            .</p>
+            <p>E per chi volesse approfondire queste qualità profonde, più nascoste, di <name type="person">Ruffini</name>, un altro lavoro da lui realizzato merita attenzione: un documentario sulla vita del figlio di un suo caro amico che, a <num type="cardinal" value="8">otto</num> anni, si è ammalato di neuroblastoma, una grave forma tumorale pediatrica.
+                <q>"Anichè vivere solo <num type="cardinal" value="6">6</num> mesi, come gli avevano diagnosticato, è riuscito a prolungare questa aspettativa fino a <num type="cardinal" value="14">14</num> anni, ridicolizzando la malattia con un semplice comandamento: mi devo divertire, la vita è troppo bella per non essere goduta fino all'ultimo. Questa è la <title rend="italic">Resilienza</title> (da cui il titolo del dvd, che si può acquistare sul sito dell'associazione <name type="associazione">Sui passi di Ale</name>, <hi rend="italic">ndr</hi>), cioè il saper reagire in maniera ottimistica a un dramma, ed è una dote insita in ognuno di noi che, se vogliamo, possiamo sviluppare tutti"</q>
+            .
+            <figure>
+                <figDesc>Logo dell'editore "La Freccia", rotondo color rosso con internamente le iniziali <mentioned>LF</mentioned></figDesc>
+            </figure>
+            </p>
         </body>
 
         <back>
+            <p> 
+                <num type="cardinali" value="27">27</num>
+                <figure>
+                    <figDesc>Logo dell'editore "La Freccia", rotondo color rosso con internamente le iniziali <mentioned>LF</mentioned></figDesc>
+                </figure>
+                <date when="2018-11">NOV2018</date>
+            </p>
         </back>
     </text>
 </TEI>
