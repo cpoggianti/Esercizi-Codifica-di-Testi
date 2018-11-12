@@ -50,11 +50,10 @@
     </teiHeader>
 
     <text xml:lang="it"> 
-        <front> <!--codifico le informazioni che precedono il testo vero e proprio-->
-            <p>Capitolo III</p> <!--numero del capitolo-->
-        </front>
-
         <body> <!--codifico il contenuto vero e proprio del testo-->
+            <div type="chapter" n="3">
+                <head>Capitolo III</head> <!--numero del capitolo-->
+            </div>
             <head>Tasso e l'esperienza della follia</head> <!--titolo della pagina-->
             <div>
                 <list style="list-style-type: square"> <!--contenuto della pagina organizzato a lista-->
