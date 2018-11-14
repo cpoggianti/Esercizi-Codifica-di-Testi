@@ -99,11 +99,7 @@
                 onosco <name type="person">Lamberti Giovanni</name> da <num type="cardinal" value="20">20</num> anni, ma <num type="cardinal" value="5">cinque</num> anni fa a <name type="place">Livorno</name> ho assistito allo spettacolo della sua Compagnia, la <name>Mayor Von Frinzius</name>, che vedeva in scena tutti i suoi <num type="cardinal" value="90">90</num> attori, di cui la metà sono ragazzi con la sindrome di Down.
                 Sono rimasto affascinato e ho deciso di lavorare a un progetto teatrale insieme a loro".
                 </q>
-            Così è nato il primo show, <title rend="italic">Un grande abbraccio</title>, 
-                <corr><!--correzione del testo cartaceo da parte mia-->
-                    <agg>che</agg> <!--ho corretto il testo aggiungendo la parola "che"-->
-                </corr>     
-            poi la scorsa primavera <name type="person">Paolo Ruffini</name> e i suoi ragazzi hanno portato al <name type="place">Teatro Sistina di Roma</name> <title rend="italic">Up&amp;Down</title>
+            Così è nato il primo show, <title rend="italic">Un grande abbraccio</title>, che poi la scorsa primavera <name type="person">Paolo Ruffini</name> e i suoi ragazzi hanno portato al <name type="place">Teatro Sistina di Roma</name> <title rend="italic">Up&amp;Down</title>
             Durante i backstage, i viaggi e vari momenti del tour è stato realizzato un film documentario che, partendo da dietro le quinte, racconta la storia di questi attori.
             Un lavoro che ha ricevuto il <name type="premio">Premio Kinéo</name> alla <name type="event">Mostra
 
