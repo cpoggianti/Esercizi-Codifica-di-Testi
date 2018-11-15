@@ -113,7 +113,20 @@
         </revisionDesc>
     </teiHeader>
 
-    <text>
+    <facsimile> <!--rappresentazione del testo scritto di entrambe le pagine sotto forma di immagini-->
+        <surface n="1" xml:id="page1Bellini">
+            <graphic url="page1Bellini.jpg" width="1256px" height="1639px"/>
+            <zone ulx="37" uly="25" lrx="1240" lry="210"/>
+            <zone ulx="37" uly="212" lrx="1240" lry="1522"/>
+            <zone ulx="684" uly="1549" lrx="1190" lry="1606"/>
+        </surface>
+
+        <surface n="2" xml:id="page2Bellini">
+            <graphic url="page2Bellini.jpg" width="1268px" height="1646px"/>
+        </surface>
+    </facsimile>
+
+    <text n="1"> <!--codifica del testo della pagina1-->
         <body>
         </body>
     </text>
