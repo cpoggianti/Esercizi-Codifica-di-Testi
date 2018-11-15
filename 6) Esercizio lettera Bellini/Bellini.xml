@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?> <!--inserimento prologo XML-->
+<!DOCTYPE TEI SYSTEM "tei_lite.dtd">
+<TEI xmlns="http://www.teic.org/ns/1.0"> <!--root-->
+    <teiHeader xml:lang="it"> <!--intestazione TEI-->
+        <fileDesc> <!--descrizione del file digitale-->
+
+            <titleStmt> <!--raggruppo le informazioni sul titolo del documento e sulle responsabilità del suo contenuto intellettuale-->
+                <title>Lettera di Bellini: edizione digitale</title> <!--titolo dell'edizione digitale-->
+                <respStmt> <!--marco il responsabile dell'edizione digitale-->
+                    <resp>Trascrizione  di</resp> 
+                    <name>Camilla Poggianti</name>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt> <!--raggruppo le informazioni riguardo l'edizione del testo-->
+                <edition> Edizione digitale
+                    <date when="2018-11">Novembre 2018</date>
+                </edition>
+                <respStmt>
+                    <resp>Conversione TEI P5 a cura di</resp>
+                    <name>Camilla Poggianti</name >
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt> <!--marco le responsabilità di pubblicazione del documento elettronico-->
+                <publisher type="person">Camilla Poggianti</publisher>
+                <date when="2018-11">Novembre 2018</date>
+                <address>Via De' Mari</address> <!--indirizzo di pubblicazione-->
+                <pubPlace>Capraia Isola</pubPlace> <!--luogo di pubblicazione-->
+                <availability status="restricted"> <!--dico che la disponibilità del testo è ristretta-->
+                    <p>Disponibile solo per ricerce studentesche</p>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc> <!--inserisco un'entrata bibliografica relativa all'edizione cartacea che sto digitalizzando-->
+                <bibl>
+                    <author>Vincenzo Bellini</author>  <!--autore della lettera-->
+                    <date  when="1826">Inizio 1826</date>
+                    <pubPlace xml:lang="fr">Futeau</pubPlace>
+                </bibl>
+
+                <msDesc> <!--descrizione del manoscritto-->
+                    <msContents> <!--descrizione del contenuto intellettuale del manoscritto-->
+                        <msItem>
+                            <author>Vincenzo Bellini</author>
+                            <textLang mainLang="ita">Italiano</textLang>
+                        </msItem>
+                    </msContents>
+
+                    <physDesc> <!--descrizione fisica del manoscritto-->
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Carta sottile</material>
+                                    <p>Lettera in buone condizioni fisiche, composta da due fogli, piegati in più parti e con testo solo nel fronte e retro bianco. Carta sottile, color beige, inchiostro nero. La prima pagina prensenta una scrittura orientata dall'alto in basso e da destra verso sinistra. La seconda pagina presenta: nella parte superiore informazioni circa il destinatario, con scrittura orientata dall'alto verso il basso e da destra verso sinistra e un timbro di partenza circolare parzialmente leggibile; nella parte inferiore informazioni circa l'autore con scrittura orientata orizzontalmente e un altro timbro circolare pazialmente illeggibile. Nella parte estremamente superiore della pagina si intravede una parte di un terzo timbro e l'ombra di un sigillo del tutto mancante nel foglio.</p>
+                                    <stamp><!--descrizione in linguaggio naturale di francobolli e timbri-->
+                                        Nel secondo foglio vi sono due timbri circolari parzialmente leggibili, uno in posizione centrale a destra l'alto posizionato in basso a sinistra, e un terzo timbro visibile per un quarto in alto a sinistra.
+                                    </stamp>
+                                </support>
+
+                                <extent> <!--descrizione della grandezza approssimatica del documento-->
+                                    <measure type="composition" unit="folio" quantity="2">2</measure>
+                                    <dimensions unit="mm">
+                                        <height>139</height>
+                                        <width>107</width>
+                                    </dimensions>
+                                </extent>
+
+                                <condition> <!--descrizione delle condizioni fisiche di conservazione della lettera-->
+                                    <p>Lettera in buone condizioni fisiche</p>
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+
+                        <handDesc> <!--descrizione dei tipi di scrittura usati nel manoscritto-->
+                            <p>Scrittura a mano libera leggibile con inchiostro nero.</p>
+                        </handDesc>
+
+                        <sealDesc> <!--descrizione dei sigilli applicati al manoscritto-->
+                            <p>Nel secondo foglio, in alto a sinistra si scorge l'ombra di un sigillo del tutto mancante</p>
+                        </sealDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc> <!--descrizione di aspetti non bibliografici di un testo-->
+            <correspDesc> <!--descrizione delle azioni relative a un atto di corrispondenza-->
+                <correspAction type="sent"> <!--descrizione del luogo, nome di persona e data relativa all'invio o ricezione di un messaggio-->
+                    <name type="person">Vincenzo Bellini</name>
+                    <name type="place">Futeau</name>
+                    <date when="1826">Inizio 1826</date>
+                </correspAction>
+            </correspDesc>
+
+            <textClass> <!--informazioni riguardo la natura o argmoento del testo-->
+                <keywords> <!--parole chiavi che identificano l'argomento o la natura di un testo-->
+                    <term>Lettera</term>
+                </keywords>
+            </textClass>
+
+            <langUsage> <!--linguaggi presenti nel testo-->
+                <language>italiano</language>
+            </langUsage>
+        </profileDesc>
+
+        <encodingDesc> <!--informazioni riguardanti lo schema e il modello di codifica-->
+            <p>Codifica di base con acquisizione di informazioni lessicali, semantiche e strutturali. Codifica anche del facsimile con collegamento completo testo-immagine.</p>
+        </encodingDesc>
+
+        <revisionDesc> <!--informazioni sulle versioni del file-->
+            <p>Creazione della teiHeader il <date when="2018-11-15">15 novembre 2018</date></p>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+        </body>
+    </text>
+</TEI>
