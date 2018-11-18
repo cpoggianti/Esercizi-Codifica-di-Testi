@@ -123,8 +123,12 @@
             <zone ulx="684" uly="1549" lrx="1190" lry="1606" xml:id="congedo_line3" start="#congedoLine3"/>
         </surface>
 
-        <surface n="2" xml:id="page2Bellini">
+        <surface n="2" xml:id="page2Bellini" start="#page-2-Bellini">
             <graphic url="page2Bellini.jpg" width="1268px" height="1646px"/>
+            <zone ulx="50" uly="26" lrx="388" lry="271" xml:id="ombra_metatimbro" start="ombraMetaTimbro"/>
+            <zone ulx="802" uly="358" lrx="1162" lry="715" xml:id="timbro_1" start="timbro1"/>
+            <zone ulx="197" uly="522" lrx="1230" lry="957" xml:id="text_1" start="text1"/>
+            <zone ulx="63" uly="1133" lrx="388" lry="1483" xml:id="timbro_2" start="timbro2"/>
         </surface>
     </facsimile>
 
@@ -171,8 +175,42 @@
                     </s>
                 </ab>
             </div>
+
+            <pb n="2" facs="#page2Bellini" xml:id="page-2-Bellini"/> <!--codifica del testo della pagina2-->
+            <div>
+                <stamp type="postmark" rend="align(left)" xml:id="ombraMetaTimbro" facs="ombra_metatimbro">
+                Parte inferiore di un timbro circolare in inchiostro nero, tagliato per tre quarti, quindi completamente illeggibile.
+                </stamp>
+            </div>
+
+            <div type="destination">
+                <stamp type="postmark" rend="align(right)" xml:id="timbro1" facs="timbro_1">
+                Timbro circolare in inchiostro nero, poco leggibile con scritto centralmente
+                    <mentioned><date when="06-27" xml:lang="fr">27 JUIN</date></mentioned>
+                mentre intorno c'è scritto
+                    <mentioned>
+                        <name type="place">NEUILLY</name>-SUR-<gap reason="illegible"/>
+                    </mentioned>
+                </stamp>
+
+                <p rend="align(center)" xml:id="text1" facs="text_1">
+                <lb/>
+                à Monsieur
+                <lb/>
+                Monsieur le Conte
+                <lb/>
+                n°<num type="cardinal">1</name>:
+                </p>
+            </div>
+
+            <div>
+                <stamp type="postmark" rend="align(left)" xml:id="timbro2" facs="timbro_2">
+                Timbro circolare in inchiostro nero, quasi completamente illeggibile con scritto centralmente <mentioned><num>27</num></mentioned>
+                </stamp>
+            </div>
+
+            <div>
+            </div>
         </body>
-
-
     </text>
 </TEI>
