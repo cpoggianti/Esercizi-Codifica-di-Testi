@@ -110,6 +110,7 @@
 
         <revisionDesc> <!--informazioni sulle versioni del file-->
             <p>Creazione della teiHeader il <date when="2018-11-15">15 novembre 2018</date></p>
+            <p>Codifica della prima pagina il <date when="2018-11-18">18 novembre 2018</date></p>
         </revisionDesc>
     </teiHeader>
 
