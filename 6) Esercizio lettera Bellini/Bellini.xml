@@ -35,8 +35,8 @@
             <sourceDesc> <!--inserisco un'entrata bibliografica relativa all'edizione cartacea che sto digitalizzando-->
                 <bibl>
                     <author>Vincenzo Bellini</author>  <!--autore della lettera-->
-                    <date  when="1826">Inizio 1826</date>
-                    <pubPlace xml:lang="fr">Futeau</pubPlace>
+                    <date  when="1826-06" xml:lang="fr">Juin 1826</date>
+                    <pubPlace xml:lang="fr">Puteau</pubPlace>
                 </bibl>
 
                 <msDesc> <!--descrizione del manoscritto-->
@@ -88,8 +88,8 @@
             <correspDesc> <!--descrizione delle azioni relative a un atto di corrispondenza-->
                 <correspAction type="sent"> <!--descrizione del luogo, nome di persona e data relativa all'invio o ricezione di un messaggio-->
                     <name type="person">Vincenzo Bellini</name>
-                    <name type="place">Futeau</name>
-                    <date when="1826">Inizio 1826</date>
+                    <name type="place">Puteau</name>
+                    <date when="1826-06">Giugno 1826</date>
                 </correspAction>
             </correspDesc>
 
@@ -114,11 +114,12 @@
     </teiHeader>
 
     <facsimile> <!--rappresentazione del testo scritto di entrambe le pagine sotto forma di immagini-->
-        <surface n="1" xml:id="page1Bellini">
+        <surface n="1" xml:id="page1Bellini" start="#page-1-Bellini">
             <graphic url="page1Bellini.jpg" width="1256px" height="1639px"/>
-            <zone ulx="37" uly="25" lrx="1240" lry="210"/>
-            <zone ulx="37" uly="212" lrx="1240" lry="1522"/>
-            <zone ulx="684" uly="1549" lrx="1190" lry="1606"/>
+            <zone ulx="37" uly="25" lrx="1240" lry="210" xml:id="informazioni_line1" start="informazioniLine1"/>
+            <zone ulx="220" uly="189" lrx="914" lry="295" xml:id="saluto_line2" start="#salutoLine2"/>
+            <zone ulx="157" uly="347" lrx="1240" lry="1522" xml:id="contenuto_lettera" start="contenutoLettera"/>
+            <zone ulx="684" uly="1549" lrx="1190" lry="1606" xml:id="congedo_line3" start="#congedoLine3"/>
         </surface>
 
         <surface n="2" xml:id="page2Bellini">
@@ -126,8 +127,51 @@
         </surface>
     </facsimile>
 
-    <text n="1"> <!--codifica del testo della pagina1-->
-        <body>
+    <text type="letter"> 
+        <body xml:lang="ita"> 
+            <pb n="1" facs="#page1Bellini" xml:id="page-1-Bellini"/> <!--codifica del testo della pagina1-->
+            
+            <div type="opener">
+                <lb xml:id="informazioniLine1" facs="#informazioni_line1"/>
+                <dateline> <!--descrizione luogo e data-->
+                    <date when="1826-06" xml:lang="fr">Juin 26</date>
+                    <name type="place">Puteau</name>
+                    <address>N:° 19 bis rampe</address>
+                    <name type="place" rend="underline">de Neuilly</name>
+                </dateline>
+            </div>
+
+            <div type="letter-body">
+                <ab type="parag"> <!--codifica saluto iniziale-->
+                    <s type="sentence">
+                        <salute>
+                            <lb xml:id="salutoLine2" facs="#saluto_line2"/>
+                            <hi rend="align(center)">Mio caro <name type="person">Carluccio</name></hi>
+                        </salute>
+                    </s>
+                </ab>
+
+                <ab type="parag"> <!--codifica contenuto della lettera-->
+                    <p xml:id="contenutoLettera" facs="#contenuto_lettera">
+                    avendo steso l'intero <term subtype="music-term">duetto</term> e mancando in esso qualche cosetta, desidererei che tu t'<distinct>incomodassi</distinct> a venire a <name type="place" xml:lang="fr">Puteau</name> per tutto fissare, e nell'<distinct>istesso</distinct> tempo darmi la <term>sortita</term> di <name type="person">Rubini</name>, se è terminata.
+                    T'aspetto in qual giorno ed in qual'ora vorrai.
+                    </p>
+                </ab>
+            </div>
+
+            <div type="closer"> <!--codifica del saluto finale-->
+                <ab type="parag"> <!--codifica saluto iniziale-->
+                    <s type="sentence">
+                        <salute>
+                            <lb xml:id="congedoLine3" facs="#congedo_line2"/>
+                            <hi rend="align(right)"> - Addio</hi>
+                            <hi rend="align(right)">Il tuo <name type="person" rend="underline">Vincenzillo</name></hi>
+                        </salute>
+                    </s>
+                </ab>
+            </div>
         </body>
+
+
     </text>
 </TEI>
