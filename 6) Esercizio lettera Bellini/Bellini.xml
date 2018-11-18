@@ -111,6 +111,7 @@
         <revisionDesc> <!--informazioni sulle versioni del file-->
             <p>Creazione della teiHeader il <date when="2018-11-15">15 novembre 2018</date></p>
             <p>Codifica della prima pagina il <date when="2018-11-18">18 novembre 2018</date></p>
+            <p>Codifica della seconda pagina il <date when="2018-11-18">18 novembre 2018</date></p>
         </revisionDesc>
     </teiHeader>
 
@@ -184,32 +185,44 @@
             </div>
 
             <div type="destination">
-                <stamp type="postmark" rend="align(right)" xml:id="timbro1" facs="timbro_1">
+                <stamp type="postmark" rend="align(right)" xml:id="timbro1" facs="timbro_1"> <!--timbro del mittente-->
                 Timbro circolare in inchiostro nero, poco leggibile con scritto centralmente
-                    <mentioned><date when="06-27" xml:lang="fr">27 JUIN</date></mentioned>
+                    <mentioned><date when="1834-06-27" xml:lang="fr">27 JUIN 1834</date></mentioned>
                 mentre intorno c'è scritto
                     <mentioned>
-                        <name type="place">NEUILLY</name>-SUR-<gap reason="illegible"/>
+                        <name type="place">NEUILLY-SUR-SEINE</name>
                     </mentioned>
                 </stamp>
 
-                <p rend="align(center)" xml:id="text1" facs="text_1">
-                <lb/>
-                à Monsieur
-                <lb/>
-                Monsieur le Conte
-                <lb/>
-                n°<num type="cardinal">1</name>:
-                </p>
+                <ab>
+                    <address type="receiver" rend="align(center)" xml:lang="fr" xml:id="text1" facs="text_1">
+                        <lb/>
+                        <addrLine>à Monsieur</addrLine>
+                        <lb/>
+                        <addrLine>Monsieur le Comte <name type="person">Pepoli</name></addrLine>
+                        <lb/>
+                        <addrLine>n°<num type="cardinal">1</name>: passage des petits Pères</addrLine>
+                        <lb/>
+                        <addrLine>à <name type="place">Paris</name></addrLine>
+                    </address>
+                </ab>
             </div>
 
             <div>
-                <stamp type="postmark" rend="align(left)" xml:id="timbro2" facs="timbro_2">
-                Timbro circolare in inchiostro nero, quasi completamente illeggibile con scritto centralmente <mentioned><num>27</num></mentioned>
+                <stamp type="postmark" rend="align(left)" xml:id="timbro2" facs="timbro_2"> <!--timbro del destinatario-->
+                Timbro circolare in inchiostro nero, quasi completamente illeggibile con scritto centralmente:
+                    <mentioned>
+                        <date when="1834-06-27">27 <unclear reason="illegible">JUIN</unclear> 1834</date>
+                    </mentioned>
                 </stamp>
             </div>
 
-            <div>
+            <div type="addition">
+                <ab xml:id="text2" facs="text_2">
+                    <add author="scribe1">
+                    27 Lettera del Bellini sul <term>duetto</term> del  p° <term>atto</term> dei Puritani
+                    </add>
+                </ab>
             </div>
         </body>
     </text>
